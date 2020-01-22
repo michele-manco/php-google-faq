@@ -8,7 +8,11 @@ header{
   height: 60px;
   width: 100%;
   background-color: white;
-  margin-bottom: 2px solid black;
+  /* margin-bottom: 2px solid black; */
+  position: fixed;
+  /* padding-top: 100px; */
+z-index: 1;
+/* margin-top: 100px; */
 
 }
 .menu_left{
@@ -45,12 +49,13 @@ main{
   background-color: white;
   display: flex;
   justify-content: center;
-  margin:20px;
-  margin-top: 1px solid black;
+  /* margin:20px; */
+  /* margin-top: 1px solid black; */
 }
 .faq-wrapper{
   width: 900px;
   margin: 0 auto;
+  padding-top: 100px;
 
 }
 h2{
